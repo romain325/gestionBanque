@@ -1,0 +1,10 @@
+void global(void);
+void charg(float tabE[], float tabS[], char infoE[][14],char infoS[][14], float* base,int* nE, int* nS);
+int affichMenu(void);
+void affichCompte(float tabE[],float tabS[],char infoE[][14],char infoS[][14],float base,int nE,int nS,float totaux, float totalS, float totalE);
+void total(float tabE[],int nE,float tabS[],int nS,float base,float* totaux,float* totalE,float* totalS);
+void ajoutS(float tabS[], char infoS[][14],int* nS);
+void ajoutE(float tabE[], char infoE[][14],int* nE);
+void enregistr(float tabE[], char infoE[][14], float tabS[], char infoS[][14], int nE, int nS, float base);
+void empty(float tabE[], float tabS[], char infoE[][14], char infoS[][14], int* nE, int* nS, float* base, float nBase);
+void economie(float totaux);
